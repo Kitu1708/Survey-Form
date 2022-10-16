@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://www.jsa.net/wp-content/uploads/2019/05/tech-header-01.jpg);
+  font-family: fantasy;
+  background-size: cover;
+}
+
+h1, p {
+  color: white;
+}
+form {
+  width: 60vw;
+  max-width: 800px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+input,
+textarea,
+select {
+  margin: 0 0 10px 0;
+  width: 100%;
+  min-height: 3em;
+}
+fieldset {
+  background-color: #A9B9C6;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  line-height: 30px;
+}
+
+label {
+  display: block;
+}
+
+input, textarea {
+  display: block;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+  display: inline; 
+  width: 5%
+}
+input[type="text"], input[type="email"], input[type="number"], textarea {
+  border-radius: 5px;
+}
