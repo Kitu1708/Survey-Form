@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tech Survey Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 id="title"><center>Tech Survey Form</center></h1>
+	<p id="description">This survey was make to gather the opinion of why you choose tech and how did you obtain your knowledge in tech</p>
+  <form id="survey-form">
+	<fieldset>
+  <div>
+		<label for="name" id="name-label">Name:</label> <input type="text" id="name" required placeholder="Enter your name">
+		<label for="email" id="email-label">Email: <input type="email" id="email" required placeholder="Enter your email"></label>
+    <label for="number" id="number-label">Age: <input type="number" id="number" min="16" max="100" placeholder="Age"></label>
+    </div>
+    <div>
+    <label>Gender:</label>
+    <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+    <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
+     <label for="other"><input type="radio" id="other" name="gender" value="other"> Other</label>
+     </div>
+     <br>
+     <div>
+    <label for="why">Why did you choose tech?<textarea placeholder="Because I like it...." cols="30" rows="5"></textarea></label>
+      </div>
+    <div>
+      <br>
+    <label>How did you obtain your tech skill? </label>
+    <select id="dropdown">
+      <option value="">Select an option</option>
+      <option value="1">Bootcamp</option>
+      <option value="2">College/University</option>
+      <option value="3">Self-taught</option>
+      <option value="4">Others</option>
+    </select>
+    </div>
+    <Br>
+    <label>What would you like to improve?</label>
+    <label><input type="checkbox" id="checkbox" name="checkbox" value="JS"> JavaScript</label>
+    <label><input type="checkbox" id="checkbox" name="checkbox" value="Python"> Python</label>
+    <label><input type="checkbox" id="checkbox" name="checkbox" value="SQL"> SQL</label>
+    <label><input type="checkbox" id="checkbox" name="checkbox" value="other"> Others</label>
+    <br>
+  <input type="submit" value="Submit" id="submit" />
+  </form>
+</body>
+</html>
